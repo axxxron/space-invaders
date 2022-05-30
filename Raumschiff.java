@@ -36,11 +36,11 @@ public class Raumschiff extends Application {
 	Scene scene = new Scene(group, 600, 600);
 	Stage stage = new Stage();
 
-	ImageView ship = new ImageView("file:\\E:\\Java Profekts\\Bilder\\Ship.png");
-	Image meteorImage = new Image("file:\\E:\\Java Profekts\\Bilder\\Meteor.png");
-	Image background = new Image("file:\\E:\\Java Profekts\\Bilder\\Background.gif");
-	Image begin = new Image("file:\\E:\\Java Profekts\\Bilder\\Start.png");
-//	Image Endpicture = new Image("file:\\E:\\Java Profekts\\Bilder\\Start.png");
+	ImageView ship = new ImageView("file:\\E:\\Java Projekts\\Bilder\\Ship.png");
+	Image meteorImage = new Image("file:\\E:\\Java Projekts\\Bilder\\Meteor.png");
+	Image background = new Image("file:\\E:\\Java Projekts\\Bilder\\Background.gif");
+	Image begin = new Image("file:\\E:\\Java Projekts\\Bilder\\Start.png");
+//	Image Endpicture = new Image("file:\\E:\\Java Projekts\\Bilder\\Start.png");
 
 	int shipX = 250;
 	int shipY = 480;
@@ -196,7 +196,7 @@ public class Raumschiff extends Application {
 							}
 						}
 
-// Im Main Thrad ausgeführe (grafic)
+// Im Main Thrad ausgefÃ¼hre (grafic)
 						Platform.runLater(new Runnable() {
 							@Override
 							public void run() {
